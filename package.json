@@ -1,0 +1,16 @@
+{
+  "name": "webbyview",
+  "version": "0.0.1",
+  "private": true,
+  "dependencies": {
+    "chai": "^3.5.0",
+    "cheerio": "^0.20.0",
+    "mocha": "^2.4.5",
+    "mock-require": "^1.2.1",
+    "request": "^2.69.0",
+    "sinon": "^1.17.3"
+  },
+  "scripts": {
+    "test": "node_modules/mocha/bin/mocha  test/*"
+  }
+}
